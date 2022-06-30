@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931079EE286D5FB1009081E0 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931079ED286D5FB1009081E0 /* TopView.swift */; };
+		931079F0286D615F009081E0 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931079EF286D615F009081E0 /* StoryView.swift */; };
+		931079F2286D61B5009081E0 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931079F1286D61B5009081E0 /* PostView.swift */; };
+		931079F4286D620E009081E0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931079F3286D620E009081E0 /* TabBarView.swift */; };
 		93D7E5082805D003002211AA /* InstaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E5072805D003002211AA /* InstaCloneApp.swift */; };
 		93D7E50A2805D003002211AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E5092805D003002211AA /* ContentView.swift */; };
 		93D7E50C2805D006002211AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D7E50B2805D006002211AA /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931079ED286D5FB1009081E0 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		931079EF286D615F009081E0 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		931079F1286D61B5009081E0 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		931079F3286D620E009081E0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		93D7E5042805D003002211AA /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D7E5072805D003002211AA /* InstaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneApp.swift; sourceTree = "<group>"; };
 		93D7E5092805D003002211AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931079F5286D6243009081E0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				931079ED286D5FB1009081E0 /* TopView.swift */,
+				931079F1286D61B5009081E0 /* PostView.swift */,
+				931079EF286D615F009081E0 /* StoryView.swift */,
+				931079F3286D620E009081E0 /* TabBarView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		93D7E4FB2805D003002211AA = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +72,7 @@
 		93D7E5062805D003002211AA /* InstaClone */ = {
 			isa = PBXGroup;
 			children = (
+				931079F5286D6243009081E0 /* components */,
 				93D7E5152805D6E5002211AA /* Data.swift */,
 				93D7E5072805D003002211AA /* InstaCloneApp.swift */,
 				93D7E5092805D003002211AA /* ContentView.swift */,
@@ -140,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931079F0286D615F009081E0 /* StoryView.swift in Sources */,
 				93D7E50A2805D003002211AA /* ContentView.swift in Sources */,
+				931079F4286D620E009081E0 /* TabBarView.swift in Sources */,
 				93D7E5162805D6E5002211AA /* Data.swift in Sources */,
+				931079EE286D5FB1009081E0 /* TopView.swift in Sources */,
+				931079F2286D61B5009081E0 /* PostView.swift in Sources */,
 				93D7E5082805D003002211AA /* InstaCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
