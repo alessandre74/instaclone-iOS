@@ -149,8 +149,7 @@ struct PostView: View {
                           .bold()
                   }
                   .frame(maxWidth: .infinity, alignment: .leading)
-                  .padding(.horizontal, 12)
-                  .padding(.bottom, 12)
+                  .padding([.horizontal,.bottom], 12)
               }
           }
       }

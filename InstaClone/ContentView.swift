@@ -13,6 +13,8 @@ struct ContentView: View {
       
       PostView()
       
+      Divider()
+      
       TabBarView()
     }
   }

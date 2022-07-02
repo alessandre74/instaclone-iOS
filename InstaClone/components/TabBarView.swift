@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TabBarView: View {
   var body: some View {
-    Divider()
+    
     
     HStack {
       
@@ -48,7 +48,7 @@ struct TabBarView: View {
         .padding(.top, 3)
         .background(Circle().stroke(Color.black, lineWidth: 1.4))
     }
-    .padding(.horizontal, 25)
+    .padding(.horizontal,25)
   }
 }
 
