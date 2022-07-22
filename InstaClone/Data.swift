@@ -8,8 +8,6 @@
 import Foundation
 import SwiftUI
 
-
-
 let iconsItens = (
     add: "add",
     bookmark: "bookmark",
